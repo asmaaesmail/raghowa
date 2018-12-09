@@ -14,6 +14,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+
+
+
 html,
 body {
 	height: 100%;
@@ -31,6 +34,7 @@ body::-webkit-scrollbar {
  
 
 }
+
 
 body::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(243, 185, 219, .6);
@@ -177,7 +181,8 @@ body::-webkit-scrollbar-thumb {
    .p-left {
     
     margin-top: 7px;
-       margin-bottom: 60px
+    margin-bottom: 60px;
+    font-size: 19px;
 }
     .phone{
          margin-top: 30px;
@@ -192,13 +197,18 @@ body::-webkit-scrollbar-thumb {
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
+@media only screen and (min-width: 768px) {
+     .mob-content{
+    margin-top: 30px
+}
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .phone {
     margin-bottom: 10px;
 }
+   
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -488,8 +498,9 @@ body::-webkit-scrollbar-thumb {
 .serv-ex {
     text-align: right;
     margin: 10px 30px;
-    font-size: 18px;
+    font-size: 19px;
     color: #1f9d3c;
+    
 }
 
 .line {
@@ -915,7 +926,27 @@ footer p {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+            
+footer p {
+	font-size: 22px;
+	
+}
 
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
 
 /***************************************
 
